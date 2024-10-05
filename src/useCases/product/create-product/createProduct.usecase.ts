@@ -1,8 +1,8 @@
 // A camada  de useCases pode fazer conexão os modelos de negócios descritos na parte de entities (DOMAIN)
 
-import { Product, ProductGateway } from "../../domain";
+import { Product, ProductGateway } from "../../../domain";
 
-import { UseCase } from "../useCase"
+import { UseCase } from "../../useCase"
 
 export type CreateProductInputDto = {
     name: string;

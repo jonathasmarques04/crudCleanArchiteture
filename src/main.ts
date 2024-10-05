@@ -1,6 +1,11 @@
 import { prisma } from "./package";
 
-import { ApiExpress, CreateProductRoute, ListProductRoute, ProductRepositoryPrisma } from "./infra";
+import {
+  ApiExpress,
+  CreateProductRoute,
+  ListProductRoute,
+  ProductRepositoryPrisma,
+} from "./infra";
 
 import { CreateProductUseCase, ListProductUseCase } from "./useCases";
 

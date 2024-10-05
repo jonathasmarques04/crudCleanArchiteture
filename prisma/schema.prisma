@@ -21,3 +21,12 @@ model Product {
 
   @@map("products")
 }
+
+model User {
+  id String @id
+  name String
+  email String
+  password String
+
+  @@map("users")
+}

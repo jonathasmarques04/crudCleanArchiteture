@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import {
     ListProductOutputDto,
     ListProductUseCase,
-} from "../../../../../useCases/list-product/listProduct.usecase";
+} from "../../../../../useCases/product/list-product/listProduct.usecase";
 import { httpMethod, HttpMethod, Route } from "../routes";
 
 export type ListProductResponseDto = {
